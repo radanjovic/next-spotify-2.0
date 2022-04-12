@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer component {
+    .Btn {
+        @apply cursor-pointer hover:scale-125 transform transition duration-100 ease-out;
+    }
+}
